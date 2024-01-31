@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+td {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: #96D4D4;
+    padding: 15px;
+}
+
+.button {
+    border-radius: 90px;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
